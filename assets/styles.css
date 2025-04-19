@@ -178,3 +178,16 @@ hr{
 .fa-crown:hover .login{
     display: block;
 }
+
+.home{
+    margin-top: 80px;
+    background: url(images/img1.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+}
