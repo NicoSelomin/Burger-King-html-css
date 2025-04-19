@@ -294,3 +294,34 @@ h3{
 .fidelity_prog img{
     width: 100%;
 }
+
+/* little food */
+.little-food{
+    padding: 0 10%;
+
+}
+
+.little-food img{
+    width: 220px;
+}
+
+.little-food_box{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.little-food_box .box{
+    background-color: #fbf5ee;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 20px;
+    transition: 0.25s;
+    height: 100%;
+}
+
+.little-food_box .box:hover{
+    transform: scale(0.9);
+}
